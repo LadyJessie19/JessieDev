@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endereço</title>
+    <link rel="stylesheet" href="endereço.css">
+</head>
+
+<body>
+    <h1>Por favor, informe seu endereço nos campos abaixo:</h1>
+    <div id="container">
+    <label for="cep">CEP:</label>
+    <input id="cep" type="number">
+    <br>
+    <label for="rua">Rua:</label>
+    <input id="rua" type="text">
+    <br>
+    <label for="numero">Número:</label>
+    <input id="numero" type="number">
+    <br>
+    <label for="bairro">Bairro:</label>
+    <input id="bairro" type="text">
+    <br>
+    <label for="cidade">Cidade:</label>
+    <input type="text" id="cidade">
+    <br>
+    <label for="estado">Estado:</label>
+    <select id="estado">
+            <option value="" selected disabled>Escolha seu estado</option>
+        <optgroup label="Norte">
+            <option value="AC">Acre</option>
+            <option value="AM">Amazonas</option>
+            <option value="AP">Amapá</option>
+            <option value="PA">Pará</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="TO">Tocantins</option>
+        </optgroup>
+        <optgroup label="Nordeste">
+            <option value="AL">Alagoas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="MA">Maranhão</option>
+            <option value="PI">Piauí</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PB">Paraíba</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="SE">Sergipe</option>
+        </optgroup>
+        <optgroup label="Centro-Oeste">
+            <option value="GO">Goiás</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="DF">Distrito Federal</option>
+        </optgroup>
+        <optgroup label="Sudeste">
+            <option value="ES">Espírito Santo</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="SP">São Paulo</option>
+        </optgroup>
+        <optgroup label="Sul">
+            <option value="PR">Paraná</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="SC">Santa Catarina</option>
+        </optgroup>        
+    </select>
+    </div>
+</body>
+
+</html>

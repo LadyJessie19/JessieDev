@@ -1,0 +1,12 @@
+input {
+    width: 100px;
+    height: 40px;
+}
+
+.sem-darkmode {
+    color:blue;
+}
+
+.com-darkmode {
+    color: red;
+}

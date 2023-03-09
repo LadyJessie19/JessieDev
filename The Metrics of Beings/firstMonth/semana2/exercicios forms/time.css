@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body{
+    background-color: navy;
+    font-size: 24px;
+    font-family: Poppins;
+    color: white;
+}
+input{
+    margin: 10px 5px;
+    min-width: 100px;
+    height: 20px;
+    border-radius: 7px;
+}
+select{
+    margin: 10px 5px;
+    width: 180px;
+    height: 30px;
+}
+#container{
+    width:27%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 60px;
+}

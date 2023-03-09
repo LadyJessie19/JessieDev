@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(214, 70, 130);
+}
+#titulo{
+    font-family: Kanit;
+    font-size: 65px;
+    text-align: center;
+    color: white;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    text-shadow: -3px 5px 9px rgb(0, 0, 0);
+
+/* Vou deixar isso guardado porque não está bom
+    animation: Lema;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-delay:1s;
+    animation-timing-function: ease;
+    animation-duration: 3s;
+    */
+}
+
+
+#foto{
+    height: 150px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+    border-radius: 13px;
+    margin-top: 1px;
+}
+
+@keyframes Lema{
+    from{margin-right: 100%;}
+    to{margin-right: 0%;}
+}
+
+
+#centro{
+    text-align: center;
+    
+}
+
+#curriculo{
+    margin-top: 25px;
+    margin-bottom: 12px;
+    border-width: 2.5px;
+    border-style:solid;
+    border-radius: 8px;
+    border-color: white;
+    transform: scale(1.5);
+    font-family: Kanit;
+    color: white;
+    background-color: gray;
+}
+
+#email{
+    margin-top: 20px;
+    margin-bottom: 12px;
+    border-width: 2.5px;
+    border-style:solid;
+    border-radius: 8px;
+    border-color: white;
+    transform: scale(1.5);
+    font-family: Kanit;
+    color: white;
+    background-color: gray;
+}
+
+.botao{
+    text-align: center;
+}
+
+
+#info{
+    color:white
+}
+
+p{
+    font-family: Kanit;
+}
+
+h2{
+    font-family: Kanit;
+}
+
+li{
+    font-family: Kanit;
+}
+
+
+
+
+

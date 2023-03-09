@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body{
+    background-color: #ffffc8;
+    font-family: Poppins;
+    color: #a10303;
+}
+label{
+    font-size: 28px;
+}
+input{
+    width: 250px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+h1{
+    font-size:40px;
+}
+a{
+     color: rgb(110, 9, 9);
+     font-size: 24px;
+    margin-right: 10px;
+}
+.voltar{
+    color: gray;
+    font-size: 18px;
+}
+a h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+#bold{
+    font-weight: 600;
+}
+.descricao{
+    font-style: italic;
+}
+.preco{
+    font-size: 24px;
+}
+#cardapio{
+    padding: 30px;
+    text-align: center;
+}
+select{
+    padding: 7px 15px;
+}
+.comidas{
+    margin-bottom: -30px;
+}
+h2{
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 10px; 
+    margin-bottom:10px;
+}
+.titulo-card{
+    font: size 28px;
+    text-decoration: underline;
+    padding-bottom:10px;
+}
+#div-log{
+    text-align: center;
+}
+#div-bemv{
+    text-align: center;
+}
+#div-pratos{
+    display: inline-block;
+}
+#div-beb{
+    display: inline-block;
+}
+#logo-cardapio{
+    text-align: center;
+}
+.campos{
+    text-align: center;
+}
+#head-pedido{
+    text-align: center;
+}
+#head-pagamento{
+    text-align: center;
+}
+.bigger{
+    font-size: 24px;
+    padding-bottom: 20px;
+}

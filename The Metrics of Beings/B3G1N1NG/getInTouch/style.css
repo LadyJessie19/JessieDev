@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body{
+    font-family: Poppins;
+    background: linear-gradient( to bottom, crimson , violet);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+}
+h2{
+    margin-top: -15px;
+}
+#txt{
+    margin: 20px;
+    margin-bottom: 40px;
+    max-width: 420px;
+    font-size: 18px;
+    
+}
+#left-side{
+    animation: fadeIn;
+    animation-play-state: running;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.words{
+    text-shadow: 3px 3px 4px rgb(63, 62, 62);
+}
+#head{
+    animation: downToUp;
+    animation-play-state: running;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+.intro{
+    animation: upToDown;
+    animation-play-state: running;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+#botao{
+    padding: 10px 24px;
+    border-radius: 30px;
+    background-color: white;
+    color: violet;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 700;
+    box-shadow: 3px 3px 15px rgb(63, 62, 62);
+}
+#divBotao{
+    /* animation: botaoTamanho;
+    animation-play-state: running;
+    animation-duration: 2s;
+    animation-iteration-count: 1; */
+    animation: poping2;
+    animation-play-state: running;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+#botao:hover{
+    background-color: rgb(218, 88, 114);
+}
+.redes{
+    margin: 9px;
+    margin-top: 40px;
+    opacity: 0.8;
+    animation: poping;
+    animation-play-state: running;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    /* transform: scale(1.5, 1.5); */
+}
+.twitter{
+    animation: poping;
+    animation-play-state: running;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 0.3s;
+}
+.github{
+    animation: poping;
+    animation-play-state: running;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-delay: 0.6s;
+}
+.linkedin{
+    animation: poping;
+    animation-play-state: running;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-delay: 0.9s;
+}
+.redes:hover{
+    opacity: 1;
+}
+#left-side{
+    float: left;
+    transform: translate(200px, 80px);
+}
+#foto{
+    float: right;
+    transform: translate(-280px, 160px);
+    animation: fadeIn;
+    animation-play-state: running;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+#jessie{
+    border-radius: 50%;
+    border: 2px solid rgb(218, 88, 114);
+    box-shadow: 3px 3px 15px rgb(63, 62, 62);
+    transform: scale(1.3);
+    animation: grandePequeno;
+    animation-play-state: running;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+#backgroung{
+    max-height: 70px;
+} 
+
+@keyframes fadeIn{
+    0%{opacity: 0.5;}
+    100%{opacity: 1;}
+}
+
+@keyframes grandePequeno{
+    0%{transform: scale(1.4,1.4);}
+    100%{transform: scale(1.3,1.3);}
+}
+
+@keyframes downToUp{
+    0%{transform: translateY(-15px);}
+    100%{transform: translateY(0);}
+}
+
+@keyframes upToDown{
+    0%{transform: translateY(15px);}
+    100%{transform: translateY(0px);}
+}
+
+@keyframes botaoTamanho{
+    0%{transform: scale(1.5, 1.5);}
+    90%{transform: scale(1.1, 1.1);}
+}
+
+@keyframes poping{
+    0%{transform: translateY(0px);}
+    20%{transform: translateY(5px);}
+    60%{transform: translateY(-5px);}
+    100%{transform: translateY(0px);}
+}
+
+@keyframes poping2{
+    0%{transform: translateY(-10px);}
+    50%{transform: translateY(10px);}
+    100%{transform: translateY(0px);}
+}
+
+@media screen and (max-width:500px){
+    #left-side{
+        transform: translateX(4px);
+    }
+    #foto{
+        transform: translate(-82px, 60px);
+    }
+    #jessie{
+        margin-bottom: 50px;
+    }
+}

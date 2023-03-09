@@ -1,0 +1,50 @@
+body{
+    background: linear-gradient(to left, rgb(248, 46, 198) , rgb(168, 254, 28));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: azure;
+}
+#countLabel{
+    display: block;
+    font-size: 200px;
+    text-align: center;
+}
+#btau{
+    padding: 10px;
+    width: 32%;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(165, 42, 79);
+    color: white;
+}
+#btau:hover{
+    background-color: rgb(232, 58, 110);
+}
+#btre{
+    padding: 10px;
+    width: 32%;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(165, 42, 79);
+    color: white;
+}
+#btre:hover{
+    background-color: rgb(232, 58, 110);
+}
+#btdi{
+    padding: 10px;
+    width: 32%;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(165, 42, 79);
+    color: white;
+}
+#btdi:hover{
+    background-color: rgb(232, 58, 110);
+}
+#container{
+    line-height: 50vh;
+}

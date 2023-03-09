@@ -1,0 +1,1 @@
+fix the instrutions to the user

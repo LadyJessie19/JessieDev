@@ -1,0 +1,97 @@
+body {
+    margin-top: 0px;
+    background-color: #ffc305;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+#titulo {
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+    margin: 12px;   
+}
+
+a{
+    font-weight: 900;
+    color: black;
+    font-size: 20px;
+}
+
+#capa1 {
+    margin-top: 0px;
+    background-color: #900c3f;
+    border-style: solid;
+    text-align: center;
+    font-family: Pacifico;
+    color: lightgrey;
+    letter-spacing: 4px;
+}
+
+#subcapa {
+    background-color: #581845;
+    border-style: solid;
+    border-color: lightgrey;
+    font-size: 22px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#link1{
+    background-color: #900c3f;
+
+    display: inline-block;
+    height: 25px;
+    margin: 15px;
+    padding: 10px;
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+
+    border-style:solid;
+    border-color: lightgray;
+    border-radius: 10px;
+
+    box-shadow: 1px 1px 5px black;
+
+}
+
+#body1{
+    word-spacing: 1px;
+
+    font-family:"Tiro Bangla";
+    font-weight:bold;
+    font-size: 18px;
+    
+    background-color: #c70039;
+    
+    border: #581845;
+    border-style: solid;
+    border-radius: 25px;
+    
+    box-shadow: 1px 1px 5px black;
+
+}
+
+#capabaixo{
+    background-color: #ff5733;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 5px;
+    margin-top: 15px;
+
+    font-family:"Tiro Bangla";
+    font-size: 15px;
+    font-weight: 15px;
+    padding: 10px;
+    
+    text-align: center;
+    position:relative;
+    bottom: 0;
+}

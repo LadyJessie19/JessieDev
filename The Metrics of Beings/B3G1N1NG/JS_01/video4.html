@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vai Praticando</title>
+    <style>
+        body{
+            background-color: olivedrab;
+            font-size: 25px;
+            color: pink;
+        }
+        #thanks{
+            font-weight: bold;
+            font-size: 30px;
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo</h1>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Odit doloribus neque exercitationem! Impedit, illum eius 
+        sapiente, aut facere cupiditate repellat hic eveniet, 
+        ullam soluta quasi nulla? Iure consequuntur doloremque nesciunt.</P>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        Maxime molestiae, quas, laudantium necessitatibus provident 
+        quaerat veniam asperiores esse est ipsam quo saepe totam vero 
+        tenetur, quod culpa non repellat iure.</p>
+
+<script>
+    /* var nome = window.prompt('Qual o seu nome?')
+    window.alert('Prazer em te conhecer, ' + nome +'! Estamos aprendendo JS.')
+ */
+    /* var num2 = Number(window.prompt("Por favor, digite um número:"));
+    var num1 = Number(window.prompt("Agora, outro número:"));
+    var sum = num1 + num2;
+    window.alert(`A soma entre ${num2} e ${num1} é ${sum}`) */
+
+    var nome = window.prompt(`Qual o seu nome?`)
+    document.write(`Olá, <strong>${nome}</strong>! Seu nome possui ${nome.length} letras. <br>`)
+    document.write(`Seu nome com as letras maiúsculas fica assim: ${nome.toUpperCase()}<br>`)
+    document.write(`Seu nome com as letras minúsculas fica assim: ${nome.toLowerCase()}<br>`)
+    document.write(`<h3 id="thanks">Obrigada por usar meu app!</h3>`)
+</script>
+
+
+
+</body>
+</html>

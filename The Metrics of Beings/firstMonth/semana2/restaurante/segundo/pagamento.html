@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento</title>
+    <link rel="stylesheet" href="style-cliente.css">
+</head>
+<body>
+    <div id="head-pagamento">
+        <a class="voltar" href="pedido.html">voltar</a>
+        <br>
+        <img width="150px" src="/semana2/restaurante/assets/logo.png" alt="logo restaurante">
+        <h2>Valor: R$56,00</h2>
+        </div>
+        <div class="campos">
+            <label for="forma">Forma de Pagamento:</label><br>
+            <select name="forma" id="forma">
+                <option disabled selected value="">Escolha uma opção</option>
+                <option value="mastercard">Mastercard</option>
+                <option value="visa">Visa</option>
+                <option value="elo">Elo</option>
+                <option value="alimentação">Vale Alimentação</option>
+            </select>
+            <br><br>
+            <label for="n-cartao">Número do Cartão:</label><br>
+            <input type="number" name="n-cartao" id="n-cartao"><br><br>
+            <label for="cvv">CVV:</label><br>
+            <input type="number" name="cvv" id="cvv"><br><br>
+            <label for="data">Vencimento:</label><br>
+            <input type="number" name="data" id="data"><br><br>
+        </div>
+    <div class="campos"> <a href="sucesso.html"> <h2>Finalizar Pedido</h2></a></div>
+</body>
+</html>

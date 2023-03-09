@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="temp-range.css">
+</head>
+<body>
+    <div>
+        <label for="temp">Choose a comfortable temperature:</label><br />
+<input type="range" id="temp" name="temp" list="tickmarks" />
+
+<datalist id="tickmarks">
+  <option value="0" label="very cold!"></option>
+  <option value="25" label="cool"></option>
+  <option value="50" label="medium"></option>
+  <option value="75" label="getting warm!"></option>
+  <option value="100" label="hot!"></option>
+</datalist>
+    </div>
+</body>
+</html>

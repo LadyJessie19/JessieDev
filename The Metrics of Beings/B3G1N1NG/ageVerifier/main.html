@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Verificador de Idade</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+        <header>
+            <h1>Verificador de Idade</h1>
+        </header>
+    <section>
+    <div id="centro">
+        <p>Ano de Nascimento: <input type="number" name="txtano" id="txtano" min="0"></p>
+        <p>Sexo:
+            <input type="radio" name="radsex" id="mas" checked>
+            <label for="mas">Masculino</label>
+            <input type="radio" name="radsex" id="fem">
+            <label for="fem">Feminino</label>
+        </p>
+        <p><input type="button" id="veri" value="Verificar" onclick="verIdade()"></p>
+        <div id="res">
+            Preencha os dados acima para ver o resultado
+        </div>
+    </div>
+    </section>
+    <footer>
+        <h5>Made by Jessie Moura</h5>
+    </footer>
+</body>
+</html>

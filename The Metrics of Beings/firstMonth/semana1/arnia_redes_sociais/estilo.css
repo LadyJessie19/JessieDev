@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: orange;
+}
+div{
+    padding: 10px;
+    text-align: center;
+}
+.item{
+    margin-left: 27%;
+    border-right: 6px solid orange;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    width: 150px;
+    height: 15px;
+}
+.first{
+    border-top: 2px solid black;
+}
+.maior{
+    width: 400px;
+    background-color: rgba(11, 184, 31, 0.253);
+    border-radius: 15px;
+    margin: auto;
+    padding-bottom: 30px;
+}

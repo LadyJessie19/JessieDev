@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Documento de teste</title>
+    <link href="style.css" rel="stylesheet" />
+    <script>
+      function alertarInicio () {
+        console.log('Elemento terminou de carregar')
+      }
+      function alertarClique (elemento) {
+        console.log(elemento, 'foi clicado')
+      }
+      function modifyP () {
+        const firstParagraph = document.getElementById('first')
+        firstParagraph.innerHTML = 'Teste teste'
+      }
+      function insertHtmlIntoDiv () {
+        document.getElementById('content').innerHTML = '<p>Este é um parágrafo.</p><br/><b>Este é um texto em negrito</b>'
+      }
+      function changeTitleColor () {
+        const title = document.getElementById('title')
+        title.className = 'title2'
+      }
+      const elements = document.getElementsByTagName('p')
+    </script>
+  </head>
+  <body onload="alertarInicio()">
+    <h1 onclick="alertarClique('titulo')" id="title" class="title1">Título</h1>
+    <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, beatae! Non ratione quae tempore, sequi cupiditate ducimus maxime quam. Voluptatum.</p>
+    <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur modi ab voluptatem quaerat dolorem sed quibusdam deleniti ipsa aperiam fuga. Illo magni laudantium, placeat ea mollitia delectus? Officia, aut animi.</p>
+    <div id="content"></div>
+    <button onclick="modifyP()">Pegar o P</button>
+    <button onclick="insertHtmlIntoDiv()">Inserir conteúdo na div</button>
+    <button onclick="changeTitleColor()">Mudar cor do título</button>
+  </body>
+</html>

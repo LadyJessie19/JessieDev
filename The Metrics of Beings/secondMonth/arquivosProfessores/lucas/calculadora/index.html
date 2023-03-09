@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>Pagina Teste</title>
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="box" id="content">
+            <input id="input"/> 
+            <br />           
+            <br />    
+            <button onclick="pressButton(1)">1</button>
+            <button onclick="pressButton(2)">2</button>
+            <button onclick="pressButton(3)">3</button>
+            <button onclick="pressButton(4)">4</button>
+            <button onclick="pressButton(5)">5</button>
+            <button onclick="pressButton(6)">6</button>
+            <button onclick="pressButton(7)">7</button>
+            <button onclick="pressButton(8)">8</button>
+            <button onclick="pressButton(9)">9</button>
+            <button onclick="pressButton('.')">.</button>
+            <button onclick="pressButton(0)">0</button>
+            <button onclick="pressButton(00)">00</button>
+            <button onclick="pressButton('+')">+</button>
+            <button onclick="pressButton('-')">-</button>
+            <button onclick="pressButton('*')">*</button>
+            <button onclick="pressButton('/')">/</button>
+            <button onclick="pressButton('=')">=</button>
+        </div>
+        <footer>
+            <script>
+                let numAnterior = 0
+                let operacaoClicada = ''
+
+                function pressButton(key){
+                   const input = document.getElementById('input')                   
+                   
+                   if(isNaN(key)){
+                     if(key !== '='){
+                        operacaoClicada = key
+                        numAnterior = input.value
+                        input.value = ''
+                     } else {
+                        input.value = operation(operacaoClicada, numAnterior, input.value)
+                     }
+                   } else {
+                     input.value = input.value + key
+                   }
+                }
+
+                function operation(key, num1, num2) {
+                    switch(key) {
+                        case '+':
+                            return Number(num1) + Number(num2);
+                        case '-':
+                            return Number(num1) - Number(num2);
+                        case '*':
+                            return Number(num1) * Number(num2);
+                        case '/':
+                            return Number(num1) / Number(num2);
+                        default:
+                            return 0;
+                    }
+                }
+  
+            </script>
+        </footer>
+    </body>
+</html>

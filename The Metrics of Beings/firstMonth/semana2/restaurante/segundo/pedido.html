@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+    <link rel="stylesheet" href="style-cliente.css">
+</head>
+<body>
+    <div id="head-pedido">
+    <a class="voltar" href="cardápio.html">voltar</a>
+    <br>
+    <img width="150px" src="/semana2/restaurante/assets/logo.png" alt="logo restaurante">
+    <h2>Endereço</h2>
+    </div>
+    <div class="campos">
+        <label for="cep">CEP:</label><br>
+        <input type="number" id="cep"><br>
+        <label for="rua">Rua:</label><br>
+        <input type="text" id="rua"><br>
+        <label for="numero">Número:</label><br>
+        <input type="number" id="numero"><br>
+        <label for="bairro">Bairro:</label><br>
+        <input type="text" id="bairro">
+    </div>
+<hr style="margin:40px 0px;">
+<div class="pratos-pedido campos">
+    <h2>Prato</h2>
+    <label for="pratos-tipo">Prato:</label><br>
+    <select id="pratos-tipo">
+        <option value="default" selected disabled>Escolha uma opção</option>
+        <option value="cafe">Café da Manhã</option>
+        <option value="almoço">Almoço</option>
+        <option value="jantar">Jantar</option>
+        <option value="sobremesa">Sobremesa</option>
+    </select><br><br>
+    <label for="qtd">Quantidade:</label><br>
+    <input type="number" name="qtd" id="qtd">
+    <br>
+    <h2>Bebida</h2>
+    <label for="pratos-tipo">Bebida:</label><br>
+    <select id="pratos-tipo">
+        <option value="default" selected disabled>Escolha uma opção</option>
+        <option value="cafe">Café</option>
+        <option value="refrigerante">Refrigerante</option>
+        <option value="agua">Água</option>
+        <option value="milkshake">Milkshake</option>
+    </select><br><br>
+    <label for="qtd">Quantidade:</label><br>
+    <input type="number" name="qtd" id="qtd">
+    <br><br>
+    <a href="pagamento.html"><h2>Efetuar Pagamento</h2></a>
+</div>
+    
+    
+</body>
+</html>

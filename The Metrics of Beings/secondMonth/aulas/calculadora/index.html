@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="../../assets/logo.png" alt="Logo Arnia" />
+      <h1>CALCULADORA</h1>
+    </header>
+    <main>
+      <div id="container">
+        <div id="body-calculator">
+          <input id="input" class="inactive" dir="rtl" placeholder="0">
+          <div class="hidden" id="ranger">EH HORA DE MORFAR!</div>
+          <div id="buttons">
+            <div id="numbers">
+              <button class="button" onclick="pressButton('1')">1</button>
+              <button class="button" onclick="pressButton('2')">2</button>
+              <button class="button" onclick="pressButton('3')">3</button>
+              <button class="button" onclick="pressButton('4')">4</button>
+              <button class="button" onclick="pressButton('5')">5</button>
+              <button class="button" onclick="pressButton('6')">6</button>
+              <button class="button" onclick="pressButton('7')">7</button>
+              <button class="button" onclick="pressButton('8')">8</button>
+              <button class="button" onclick="pressButton('9')">9</button>
+              <button class="button" onclick="action('.')">.</button>
+              <button class="button" onclick="pressButton('0')">0</button>
+              <button class="button" onclick="pressButton('00')">00</button>
+            </div>
+            <div id="operators">
+              <div class="button" onclick="pressButton('/')">÷</div>
+              <div class="button" onclick="pressButton('*')">X</div>
+              <div class="button" onclick="pressButton('-')">-</div>
+              <div class="button" onclick="pressButton('+')">+</div>
+            </div>
+            <div id="actions">
+              <div class="button clear" onclick="action('C')">LIMPAR</div>
+              <div class="button backspace" onclick="action('CE')">⌫</div>
+              <div class="button result" onclick="pressButton('=')">=</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
